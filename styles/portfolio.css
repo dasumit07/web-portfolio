@@ -98,7 +98,11 @@ main{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
+    
+}
+main section{
     margin-top: 130px;
+    margin-bottom: 130px;
 }
 .about-discription{
     font-weight: 600;
@@ -106,4 +110,20 @@ main{
 .about-items{
     display: flex;
     justify-content: space-around;
+}
+.section-tittle{
+    text-align: center;
+}
+.section-discription{
+    text-align: center;
+}
+.skills-contsiner{
+    display: flex;
+    gap: 24px;
+    
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
 }
