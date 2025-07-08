@@ -111,10 +111,7 @@ main section{
     display: flex;
     justify-content: space-around;
 }
-.section-tittle{
-    text-align: center;
-}
-.section-discription{
+.text-center{
     text-align: center;
 }
 .skills-contsiner{
@@ -126,4 +123,64 @@ main section{
     padding: 30px;
     border-radius: 5px;
     box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+}
+.resume-container{
+    display: flex;
+    text-align: center;
+    gap: 20px;
+}
+.experience-discription{
+    font-size: 16px;
+    color: #757575;
+}
+.experience-sub-tittle{
+    font-size: 20px;
+    color: #757575;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.experience-tittle{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+}
+.resume-column-tittle{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+}
+.resume hr{
+    margin-bottom: 30px 5px;
+}
+.button-cv{
+    margin-top: 20px;
+}
+footer{
+    display: flex;
+    padding: 130px 230px;
+    gap: 117px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea[ty]{
+    height: 64px;
+    
+    border-radius: 5px;
+    background-color: white;
+    font-size: 16px;
+    color: #757575;
+    display: block;
+    padding: 10px 20px;
+    margin-bottom:  24px;
+    width: 100%;
+    border: none;
+}
+footer h6{
+    color: #757575;
+    font-size: 16px;
+}
+footer h3{
+    font-weight: bold;
+    font-size: 35;
 }
